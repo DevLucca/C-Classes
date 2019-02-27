@@ -11,6 +11,6 @@ int main(int argc,char *argv[]){
 	mediaIdade = somaIdade/3;
 	printf("Nomes: \n");
 	printf("%s \n %s +\n %s \n",nome1,nome2,nome3);
-	printf("Média das idades: %f",mediaIdade);
+	printf("Média das idades: %f",mediaIdade) ;
 	return 0;
 }
