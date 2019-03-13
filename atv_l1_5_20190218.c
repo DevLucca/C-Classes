@@ -31,14 +31,12 @@ int main(int argc,char *argv[]){
 	
 	for (int i = 0; i < tam; i++){
 	    if(par[i]==0){
-	        continue;
 	    } else {
 	printf("\nArray de pares:( %d ) ",par[i]);
 	    }
 	}
 	for (int i = 0; i < tam; i++){
 	    if(imp[i]==0){
-	        continue;
 	    } else {
 	printf("\nArray de impares:( %d ) ",imp[i]);      
 	    }
