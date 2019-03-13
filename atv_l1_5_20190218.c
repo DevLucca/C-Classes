@@ -56,13 +56,28 @@ int main(int argc,char *argv[]){
 
 	maiorpar = par[0];
 	for(int i = 0; i < tam; i++){
-	    
 	    if(par[i]>maiorpar){
 	        maiorpar = par[i];
 	    } 
 	}
+	printf("\nMaior par: %d",maiorpar);
 	
-		printf("\nMaior par: %d",maior);
-	
+	maior = num[0];
+	for(int i = 0; i < tam; i++){
+	    if(num[i]>maior){
+	        maior = num[i];
+	    } 
+	}
+    printf("\nMaior numero: %d",maior);
+
+	menor = num[0];
+	for(int i = 0; i < tam; i++){
+	    if(num[i]<menor){
+	        menor = num[i];
+	    } 
+	}
+    printf("\nMenor numero: %d",menor);
+    
+    printf("\nDiferenca Maior x Menor: %d", maior-menor);
 return 0;
 }
