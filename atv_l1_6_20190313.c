@@ -38,8 +38,8 @@ int main(int argc,char *argv[]){
         // ----- MEDIA IDADE ----- //
         float media = (float) soma_idade/qtd;
     
-    printf("ENTRE %d PESSOAS, TEMOS:\n",qtd);
-    printf("\nESTA E A MAIOR IDADE: %d ANO(S)!\n",maidade);
+    printf("\nENTRE %d PESSOAS, TEMOS:\n",qtd);
+    printf("ESTA E A MAIOR IDADE: %d ANO(S)!\n",maidade);
     printf("\n%s E A PESSOA DE MENOR IDADE, COM %d ANO(S)!\n",nomeme,meidade);
     printf("\nESTA E A MEDIA ENTRE AS IDADES: %0.2f ANO(S)!\n",media);
 return 0 ;
