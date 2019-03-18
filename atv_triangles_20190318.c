@@ -5,10 +5,10 @@
 
 int main(int argc,char *argv[]){
    
-   float a, b, c;
+   double a, b, c;
    printf("BEM VINDO AO INDICADOR TRIANGULAR\n-------------------------------------------------\nFAVOR INSERIR A, B e C PARA CONTINUAR:\n");
    printf("A: B: C:");
-   scanf("%f %f %f",&a,&b,&c);
+   scanf("%IA %IA %IA",&a,&b,&c);
    if(a <= 0 || b <= 0 || c <= 0){
        printf("VALORES NEGATIVOS, INPUT INVALIDO!");
    } else {
