@@ -10,7 +10,7 @@
 *	atv_l1_1_20190320                                                                            *
 *	 │  │  │     └── Data de realização da tarefa (yyyymmdd);                                    *
 *	 │  │  └──────── Número do exercício;                                                        *
-*	 │  └─────────── Lista* (Número da Lista);                                                   *
+*	 │  └─────────── Lista# (Número da Lista);                                                   *
 *	 └────────────── Descrição do arquivo;                                                       *
 *                                                                                                    *
 *	- Aulas:                                                                                     *
