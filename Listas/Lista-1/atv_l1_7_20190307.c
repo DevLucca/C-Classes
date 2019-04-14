@@ -14,8 +14,8 @@ int main(int argc,char *argv[]){
 	//----------------------------------------------------------------------//
 	sleep(3);
 	
-	area = lq * lq * lq;
-	perim = lq * 12;
+	area = lq * lq;
+	perim = lq * 4;
 	
 	sleep(1);
 	
