@@ -21,9 +21,9 @@ if(mes>12 || mes<1)
         {
           case 2:
             if (((strcmp(f_ano,"00")==0)&& ((atoi(ano) % 400)==0))||((atoi(ano) % 4)==0)){
-                    dias -=1;
+                    dias --1;
             } else {
-                    dias -=2;
+                    dias --2;
             }
           case 4: case 6: case 9: case 11:
                     dias--;
