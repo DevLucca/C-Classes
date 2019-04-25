@@ -1,21 +1,18 @@
 #include <stdio.h>
 
 int main() {
-  int i, n, par_qt = 0, par = 0;
+  int i, n, tot=0;
   printf("Favor inserir um valor: \n");
-  scanf("%d",&par);
-  printf("Favor inserir n valores: (sáida ao inserir 10 pares)\n");
-  do {
-    scanf("%d", &n);
-    if(n % 2 == 0){
-      par_qt += 1;
-      par += n;
-    } else {
-      printf("Ímpar inserido! Re-inserir outro número. \n");
+  scanf("%d",&n);
+  if(n % 2 == 0){
+    for(i=0;i<10;i++){
+      tot+=n+(2*i);
+    }
+  } else {
+    for(n+=1,i=0;i<10;i++){
+      tot+=n+(2*i);
     }
   }
-    while (par_qt != 10);
-
-printf("Soma do primeiro valor + (10 valores pares inseridos):\n%d",par);
+printf("Soma do primeiro valor + (10 valores pares subsequentes):\n%d",tot);
   return 0;
 }
