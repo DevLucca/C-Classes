@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main(void) {
+int main() {
   double n,neg = 0,pos = 0;
   int qt_neg = 0, qt_pos = 0,qt_tot = 0;
   do{
@@ -8,12 +8,11 @@ int main(void) {
     if(n < 0){
       neg+=n;
       qt_neg++;
-      qt_tot++;
     } else if(n > 0){
       pos+=n;
       qt_pos++;
-      qt_tot++;
     }
+    qt_tot++;
   }
   while (n);
   printf("Quantidade de positivos = [%d de %d]\n",qt_pos,qt_tot);
