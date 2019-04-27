@@ -15,8 +15,9 @@ int main() {
     qt_tot++;
   }
   while (n);
+  qt_tot = qt_tot - 1;
   printf("Quantidade de positivos = [%d de %d]\n",qt_pos,qt_tot);
-  printf("Quantidade de negativos = [%d de %d]\n",qt_pos,qt_tot);
+  printf("Quantidade de negativos = [%d de %d]\n",qt_neg,qt_tot);
   printf("Soma de positivos = [%lf]\n",pos);
   printf("Soma de negativos = [%lf]\n",neg);
   return 0;
